@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+}
+
+.logo-title-container {
+  color: #0E0E0E;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo-title-container img {
+  margin-right: .125em;
+}
+
+.logo-title-container span {
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+header nav ul {
+  display: flex;
+  gap: 2em;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #090909;
+  font-size: 1em;
+  font-weight: 600;
+}
