@@ -12,6 +12,7 @@ body {
 header {
   background: white;
   padding: 1rem 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   position: relative;
   z-index: 10;
 }
@@ -48,6 +49,8 @@ header {
   opacity: 1;
 }
 
+/* Hero Section */
+
 .hero-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -63,7 +66,37 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 4rem 2rem 4rem 4rem;
+  padding: 4rem 2rem 4rem 2rem;
   position: relative;
   z-index: 2;
+}
+
+.date {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.hero-section a {
+  text-decoration: none;
+  color: white;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  /* clamp(min, preferred, max) picks a font size that 
+    nver goes smaller than 2rem,
+    tries to scale with 4vw(4% of viewport width),
+    never goes larger than 3.5rem
+  */
+  font-weight: bold;
+  line-height: 1.2;
+  text-wrap: nowrap;
+  margin-bottom: 2rem;
+}
+
+.hero-description {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 90%;
 }
