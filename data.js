@@ -1,27 +1,43 @@
-
-const posts = [
+export const articles = [
   {
-    id: 1,
-    title: "My new journey as a bootcamp student.",
-    date: "July 23, 2022",
-    content: "After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects and meet like-minded peers.",
-    image: "images/bootcamp.jpg",
-    featured: true
-  },
+    image: "/images/blog1.png",
+    date: "April 10, 2025",
+    title: "Finding My Focus in Frontend",
+    preview: `I used to struggle with consistency in learning frontend, but discovering Scrimba was a game-changer. The interactive format made learning feel less like a chore and more like a creative adventure,`,
+  }
+  ,
   {
-    id: 2,
-    title: "Blog one",
-    date: "July 23, 2022",
-    content: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
-    image: "images/blog1.jpg",
-    featured: false
-  },
+    image: "/images/blog2.png",
+    date: "April 12, 2025",
+    title: "How I Finally Built a Routine",
+    preview: `Discipline has always been my biggest challenge. But with Scrimba’s project-based path, I started waking up excited to code. Seeing my progress through actual projects, not just theory, helped me build a routine I never thought I could stick to.`,
+  }
+  ,
   {
-    id: 3,
-    title: "Blog two",
-    date: "July 23, 2022",
-    content: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
-    image: "images/blog2.jpg",
-    featured: false
-  },
-];
+    image: "/images/blog3.png",
+    date: "April 14, 2025",
+    title: "From Copy-Paste to Confidence",
+    preview: `In the beginning, I relied a lot on copying code without fully understanding it. But Scrimba’s challenges pushed me to pause, think, and break down each problem. Slowly, I started writing more from memory—and with confidence.`,
+  }
+  ,
+  {
+    image: "/images/blog4.png",
+    date: "April 16, 2025",
+    title: "When Everything Finally Clicked",
+    preview: `I'll never forget the moment I built my first responsive layout from scratch. It wasn’t perfect, but it worked—and I understood *why* it worked. That moment was a turning point where I realized I could actually do this.`,
+  }
+  ,
+  {
+    image: "/images/blog5.png",
+    date: "April 18, 2025",
+    title: "Imposter Syndrome vs. Progress",
+    preview: `Even as I improved, I constantly felt like I wasn’t good enough. But looking back at my earlier projects, I could see just how far I'd come. That gave me the push to keep going—even when self-doubt crept in.`,
+  }
+  ,
+  {
+    image: "/images/blog6.png",
+    date: "April 20, 2025",
+    title: "Why I’m Not Giving Up This Time",
+    preview: `This isn’t my first time trying to learn web development—but it’s the first time I’ve stuck with it this long. Thanks to Scrimba’s support, real projects, and a sense of community, I finally feel like I belong in tech.`,
+  }
+]
