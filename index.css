@@ -213,3 +213,32 @@ header {
   font-size: .9rem;
   margin-bottom: 1.5rem;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    min-height: auto;
+  }
+
+  .hero-content {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+
+  .hero-description {
+    max-width: 100%;
+  }
+
+  .blog-section {
+    padding: 3rem 1rem;
+  }
+
+  .blog-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
