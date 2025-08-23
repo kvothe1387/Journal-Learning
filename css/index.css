@@ -174,17 +174,17 @@ header {
 
 .view-more-btn {
   display: inline-block;
-  padding: 12px 30px;
-  background: #667eea;
+  padding: .625rem 1.25rem;
+  background: #333;
   color: white;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: .25rem;
   font-weight: 500;
   transition: background 0.3s ease;
 }
 
 .view-more-btn:hover {
-  background: #5a6fd8;
+  background: #0e7490;
 }
 
 /* Footer Styles */
