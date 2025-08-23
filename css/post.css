@@ -1,0 +1,24 @@
+/* Main Content */
+.blog-detail-content {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem;
+}
+
+.back-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: .625rem 1.25rem;
+  border-radius: .25rem;
+  cursor: pointer;
+  margin-bottom: 1.25rem;
+  font-size: .875rem;
+  transition: background-color .3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.back-btn:hover {
+  background-color: #0e7490;
+}
