@@ -8,6 +8,12 @@ body {
   font-family: "Source Sans 3", 'Times New Roman', Times, serif;
 }
 
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
 /* Header */
 header {
   background: white;
@@ -175,7 +181,7 @@ header {
 .view-more-btn {
   display: inline-block;
   padding: .625rem 1.25rem;
-  background: #333;
+  background: #2d3748;
   color: white;
   text-decoration: none;
   border-radius: .25rem;
@@ -191,7 +197,7 @@ header {
 footer {
   background: #2d3748;
   color: white;
-  padding: 2.187em;
+  padding: 2.5rem 0;
   text-align: center;
 }
 
@@ -208,6 +214,8 @@ footer p {
 
 .copyright {
   font-weight: 500;
+  opacity: 0.6;
+  font-size: .75em;
 }
 
 /* Responsive Design */
