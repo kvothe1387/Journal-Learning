@@ -15,32 +15,32 @@
 <body>
   <!-- Header with Navigation -->
   <header class="header">
-    <nav class="nav">
+    <nav class="nav" role="navigation" aria-label="Main navigation">
       <div class="logo">
         <img src="/images/smile.png" alt="Smiley text bubble">
         <span>My Learning Journal</span>
       </div>
-      <ul class="nav-links">
-        <li><a href="/index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT ME</a></li>
+      <ul class="nav-links" role="menubar">
+        <li role="none"><a href="/index.html" role="menuitem">HOME</a></li>
+        <li role="none"><a href="/pages/about.html" role="menuitem">ABOUT ME</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <div class="blog-detail-content">
-      <a href="/index.html" class="back-btn">← Back to Home</a>
+      <a href="/index.html" class="back-btn" aria-label="Go back to homepage">← Back to Home</a>
 
       <div class="blog-content-section">
-        <div class="blog-detail-date">OCTOBER 13, 2025</div>
-        <h1 class="blog-detail-title">My new journey as a bootcamp student.</h1>
+        <div class="blog-detail-date" aria-label="Published on October 13, 2025">OCTOBER 13, 2025</div>
+        <h1 class="blog-detail-title" id="blog-post-title">My new journey as a bootcamp student.</h1>
         <p class="blog-detail-description">
           After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the
           Bootcamp to get
           even more hands-on with my Solo Projects and meet like-minded peers.
         </p>
       </div>
-      <div class="blog-detail-img"></div>
+      <div class="blog-detail-img" role="img" aria-label="Student coding at bootcamp workspace"></div>
 
       <div class="blog-content-section">
         <h2 class="blog-section-title">How I stay committed to learning</h2>
@@ -122,7 +122,7 @@
 </body>
 
 <!-- Footer -->
-<footer>
+<footer role="contentinfo" aria-label="Site footer">
   <div class="container">
     <p>My Learning Journal by David McCullough</p>
     <p class="copyright">Copyright ©2025</p>

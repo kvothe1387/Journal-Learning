@@ -16,14 +16,14 @@
 <body>
   <!-- Header with Navigation -->
   <header class="header">
-    <nav class="nav">
+    <nav class="nav" role="navigation" aria-label="Main navigation">
       <div class="logo">
         <img src="/images/smile.png" alt="Smiley text bubble">
         <span>My Learning Journal</span>
       </div>
-      <ul class="nav-links">
-        <li><a href="/index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT ME</a></li>
+      <ul class="nav-links" role="menubar">
+        <li role="none"><a href="/index.html" role="menuitem">HOME</a></li>
+        <li role="none"><a href="about.html" role="menuitem">ABOUT ME</a></li>
       </ul>
     </nav>
   </header>
@@ -32,10 +32,11 @@
     <div class="about-content">
 
       <!-- Profile Section-->
-      <section class="profile-section">
-        <div class="profile-img"></div>
+      <section class="profile-section" aria-labelledby="profile-heading">
+        <div class="profile-img" role="img" aria-label="Profile photo of Mario"></div>
         <div class="profile-text">
-          <h1 class="profile-title">Hi there! My name is Mario and welcome to my learning journal.</h1>
+          <h1 class="profile-title" id="profile-heading">Hi there! My name is Mario and welcome to my learning journal.
+          </h1>
           <p class="profile-description">
             After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the
             Bootcamp to get even more hands-on with my Solo Projects and meet like-minded peers.
@@ -44,8 +45,8 @@
       </section>
 
       <!-- Content Sections-->
-      <section class="blog-content-section">
-        <h2 class="section-title">How I stay committed to learning</h2>
+      <section class="blog-content-section" aria-labelledby="commitment-heading">
+        <h2 class="section-title" id="commitment-heading">How I stay committed to learning</h2>
         <p class="section-text">
           I like to think of myself as a lifelong learner. I used to spend hours and hours learning, then try to create
           simple
@@ -58,8 +59,8 @@
         </p>
       </section>
 
-      <section class="blog-content-section">
-        <h2 class="section-title">How I got started</h2>
+      <section class="blog-content-section" aria-labelledby="getting-started-heading">
+        <h2 class="section-title" id="getting-started-heading">How I got started</h2>
         <p class="section-text">
           started simple and gradually grew my learning journal site. I would take notes about what I was learning.
           After each
@@ -76,14 +77,15 @@
     </div>
 
     <!-- Recent Posts Section-->
-    <section class="recent-post-section">
+    <section class="recent-post-section" aria-labelledby="recent-posts-heading">
       <div class="container">
-        <h2 class="recent-post-title">Recent Posts</h2>
-        <div class="recent-post-grid">
-          <article class="blog-card">
-            <img src="/images/blog-image-01.png" alt="Blog post" class="blog-image">
+        <h2 class="recent-post-title" id="recent-posts-heading">Recent Posts</h2>
+        <div class="recent-post-grid" role="feed" aria-label="Recent blog posts">
+          <article class=" blog-card">
+            <img src="/images/blog-image-01.png" alt="Code editor screenshot showing frontend development"
+              class="blog-image">
             <div class="blog-content">
-              <div class="blog-date">October 7, 2025</div>
+              <div class="blog-date" aria-label="Published on October 7, 2025">October 7, 2025</div>
               <h3 class="blog-title">Finding My Focus in Frontend</h3>
               <p class="blog-excerpt">I used to struggle with consistency in learning frontend, but discovering Scrimba
                 was
@@ -94,9 +96,10 @@
 
           <!-- Blog Card 2 -->
           <article class="blog-card">
-            <img src="/images/blog-image-02.png" alt="Blog post" class="blog-image">
+            <img src="/images/blog-image-02.png" alt="Daily coding routine setup with laptop and coffee"
+              class="blog-image">
             <div class="blog-content">
-              <div class="blog-date">October 18, 2025</div>
+              <div class="blog-date" aria-label="Published on October 18, 2025">October 18, 2025</div>
               <h3 class="blog-title">How I Finally Built a Routine</h3>
               <p class="blog-excerpt">Discipline has always been my biggest challenge. But with Scrimba’s project-based
                 path, I started waking up excited to code. Seeing my progress through actual projects, not just theory,
@@ -106,9 +109,10 @@
 
           <!-- Blog Card 3 -->
           <article class="blog-card">
-            <img src="/images/blog-image-03.png" alt="Blog post" class="blog-image">
+            <img src="/images/blog-image-03.png" alt="Before and after code comparison showing improvement"
+              class="blog-image">
             <div class="blog-content">
-              <div class="blog-date">October 25, 2025</div>
+              <div class="blog-date" aria-label="Published on October 25, 2025">October 25, 2025</div>
               <h3 class="blog-title">From Copy-Paste to Confidence</h3>
               <p class="blog-excerpt">In the beginning, I relied a lot on copying code without fully understanding it.
                 But
@@ -125,7 +129,7 @@
 </body>
 
 <!-- Footer -->
-<footer>
+<footer role="contentinfo" aria-label="Site footer">
   <div class="container">
     <p>My Learning Journal by David McCullough</p>
     <p class="copyright">Copyright ©2025</p>
