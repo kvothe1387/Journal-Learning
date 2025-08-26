@@ -78,12 +78,18 @@
 @media(max-width: 768px) {
   .profile-section {
     flex-direction: column;
+    align-items: center;
     text-align: center;
     gap: 1.5rem;
   }
 
   .profile-img {
     align-self: center;
+  }
+
+  .profile-title {
+    font-size: 1.75rem;
+    line-height: 1.3;
   }
 
   .content-section {
